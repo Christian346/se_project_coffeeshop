@@ -103,13 +103,14 @@
           <div class="reservation__content">
             <h2 class="reservation__title">Book a Table</h2>
 
-            <form action="" class="reservation__form">
+            <form class="reservation__form">
               <fieldset class="reservation__fieldset">
                 <label for="" class="reservation__label">Name*</label>
                 <input
                   type="text"
                   placeholder="Name Surname"
                   class="reservation__input"
+                  required
                 />
 
                 <label for="" class="reservation__label"
@@ -121,12 +122,14 @@
                   max="8"
                   placeholder="1-8"
                   class="reservation__input reservation-number"
+                  required
                 />
 
                 <label for="" class="reservation__label">Date & time*</label>
                 <input
                   type="datetime-local"
                   class="reservation__input reservation__input-placeholder"
+                  required
                 />
 
                 <label for="" class="reservation__label">Your email*</label>
@@ -134,8 +137,9 @@
                   type="email"
                   placeholder="email@email.com"
                   class="reservation__input"
+                  required
                 />
-                <button class="reservation__button button-margin">
+                <button class="reservation__button button-margin" type="submit">
                   Book a table
                 </button>
 
