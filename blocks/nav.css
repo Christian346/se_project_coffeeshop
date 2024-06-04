@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__logo {
+  /*position relative to shift position*/
+  height: 39px;
+  width: 105px;
+  position: relative;
+  right: 50px;
+}
+.nav__links {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  column-gap: 20px;
+
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav__link {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 1s ease;
+}
+.nav__link:hover {
+  color: #2f80ed;
+}
+.span-accent {
+  display: block;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2f80ed;
+}
