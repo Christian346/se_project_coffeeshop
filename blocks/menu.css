@@ -39,10 +39,3 @@
   flex-wrap: wrap;
   gap: 100px;
 }
-.menu__card {
-  margin: 0;
-  padding: 0;
-  width: 540px;
-  display: flex;
-  flex-direction: column;
-}
