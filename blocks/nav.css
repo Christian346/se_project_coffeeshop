@@ -14,8 +14,8 @@
   align-items: flex-start;
   list-style: none;
   padding: 0;
+  margin: 0;
   column-gap: 20px;
-
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -29,14 +29,5 @@
   transition: color 1s ease;
 }
 .nav__link:hover {
-  color: #2f80ed;
-}
-.span-accent {
-  display: block;
-  font-family: "Noto Serif", "Times New Roman", serif;
-  font-style: italic;
-  font-weight: 400;
-  font-size: 60px;
-  line-height: 72px;
   color: #2f80ed;
 }

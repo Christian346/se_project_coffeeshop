@@ -26,6 +26,7 @@
   z-index: 1;
 }
 .about__paragraph {
+  margin: 0;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -33,6 +34,9 @@
   line-height: 30px;
   color: #fff;
   padding-bottom: 20px;
+}
+.about__paragraph:last-of-type {
+  padding: 0;
 }
 .about__circle {
   background-color: #2f80ed;
@@ -57,5 +61,6 @@
   }
   100% {
     transform: scale(1.4);
+    opacity: 0;
   }
 }

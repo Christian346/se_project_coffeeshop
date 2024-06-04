@@ -40,32 +40,9 @@
   gap: 100px;
 }
 .menu__card {
+  margin: 0;
   padding: 0;
   width: 540px;
   display: flex;
   flex-direction: column;
-}
-.card__title {
-  padding-bottom: 32px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.card__list-item {
-  padding-bottom: 16px;
-  list-style: none;
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 20px;
-  justify-content: space-between;
-  display: flex;
-}
-.card__list-divider {
-  border-bottom: 1px solid #000;
-  flex-grow: 0.95;
 }
