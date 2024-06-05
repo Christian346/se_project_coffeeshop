@@ -27,7 +27,7 @@
   padding-bottom: 8px;
 }
 .form__label:first-of-type {
-  padding: 0;
+  padding-top: 0;
 }
 .form__input {
   font-family: "Inter", Arial, sans-serif;
